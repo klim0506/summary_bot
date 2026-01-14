@@ -97,7 +97,7 @@ BOT_TOKEN = os.getenv('BOT_TOKEN')
 DEEPSEEK_API_KEY = os.getenv('DEEPSEEK_API_KEY')
 BOT_USERNAME = None
 # Подпись с актуальным хэндлом бота для итоговых сообщений (экранируем _ для Markdown)
-SUMMARY_SIGNATURE = ""
+SUMMARY_SIGNATURE = "@fast_summary_bot"
 # Ограничение: один вопрос по документу в течение жизни сохранённого текста
 QUESTION_HINT = (
     "Можно задать 1 вопрос по этому документу. Просто отправь вопрос одним сообщением, "
@@ -1152,4 +1152,5 @@ async def main():
 if __name__ == '__main__':
 
     asyncio.run(main())
+
 
