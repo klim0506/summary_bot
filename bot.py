@@ -96,7 +96,7 @@ BOT_TOKEN = os.getenv('BOT_TOKEN')
 DEEPSEEK_API_KEY = os.getenv('DEEPSEEK_API_KEY')
 BOT_USERNAME = None
 # Подпись с актуальным хэндлом бота для итоговых сообщений
-SUMMARY_SIGNATURE = "_Суммаризировано @fast//_summary//_bot_"
+SUMMARY_SIGNATURE = ""
 # Ограничение: один вопрос по документу в течение жизни сохранённого текста
 QUESTION_HINT = (
     "Можно задать 1 вопрос по этому документу. Просто отправь вопрос одним сообщением, "
